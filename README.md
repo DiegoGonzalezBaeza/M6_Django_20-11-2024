@@ -61,7 +61,11 @@ Un entorno virtual permite aislar las dependencias del proyecto. Sigue estos pas
    ```bash
    django-admin startproject my_project
    ```
-2. Navega a la carpeta del proyecto:
+2. Crea un requirements.txt:
+   ```bash
+   pip freeze > requirements.txt
+   ```
+3. Navega a la carpeta del proyecto:
    ```bash
    cd my_project
    ```
